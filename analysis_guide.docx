@@ -1,0 +1,15 @@
+# Analysis Guide
+
+## Overview
+
+This document provides guidance on how to use the Python scripts for analyzing large datasets in bioinformatics, specifically for identifying therapeutic targets in cancer research.
+
+## Scripts
+
+### 1. `analyze_rna_seq.py`
+
+This script performs differential expression analysis on RNA-seq data. It takes an input file with gene expression counts and outputs a file with significant differentially expressed genes.
+
+**Usage:**
+```bash
+python analyze_rna_seq.py --input <input_file> --output <output_file>
